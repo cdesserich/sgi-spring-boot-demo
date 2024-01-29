@@ -1,20 +1,18 @@
 package com.mysgi.portal.pharma.configurations;
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.security.config.annotation.web.builders.HttpSecurity;
-import org.springframework.security.web.SecurityFilterChain;
+//import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+//import org.springframework.security.web.SecurityFilterChain;
 
-@Configuration
+//@Configuration
 public class SecurityConfiguration {
 
-    @Bean
-    public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception {
-        return httpSecurity.authorizeHttpRequests((authorize) ->
-                        authorize.requestMatchers("/**")
-                                .permitAll()
-                                .anyRequest()
-                                .authenticated())
-                .build();
-    }
+//    @Bean
+//    public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception {
+//        return httpSecurity.authorizeHttpRequests((authorize) ->
+//                        authorize.requestMatchers("/**")
+//                                .permitAll()
+//                                .anyRequest()
+//                                .authenticated())
+//                .build();
+//    }
 }
