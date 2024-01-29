@@ -1,0 +1,7 @@
+<div class="action" [style.background-color]="backgroundColor()" [style.border-radius]="borderRadius()">
+  <div class="spacer"></div>
+  <div class="img"><img [ngSrc]="image()" height="220" width="220" [alt]="altText()" priority></div>
+  <div class="text" [style.text-align]="position() === ActionPosition.Middle ? 'center' : ''">
+    <p [innerHtml]="actionText()"></p>
+  </div>
+</div>

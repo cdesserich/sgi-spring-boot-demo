@@ -1,0 +1,11 @@
+SKU,NAME,DESCRIPTION,IMAGE,MY_ITEM
+banner,Custom banner,Customize the print on this banner to your liking.,assets/products/banner.png,1
+bracelet,Custom bracelet,Customize the print on this bracelet to your liking.,assets/products/bracelet.png,0
+brochure,Custom brochure,Customize the print and content on this brochure to your liking.,assets/products/brochure.png,0
+lib-balm,Custom lip balm,Customize the print on this lip balm to your liking.,assets/products/lip-balm.png,0
+tshirt-s,Small Custom T-shirt,Customize the print on this t-shirt to your liking.,assets/products/t-shirt.png,0
+tshirt-m,Medium Custom T-shirt,Customize the print on this t-shirt to your liking.,assets/products/t-shirt.png,0
+tshirt-l,Large Custom T-shirt,Customize the print on this t-shirt to your liking.,assets/products/t-shirt.png,0
+tshirt-xl,XL Custom T-shirt,Customize the print on this t-shirt to your liking.,assets/products/t-shirt.png,1
+tshirt-xxl,2XL Custom T-shirt,Customize the print on this t-shirt to your liking.,assets/products/t-shirt.png,0
+tshirt-xxxl,3XL Custom T-shirt,Customize the print on this t-shirt to your liking.,assets/products/t-shirt.png,0

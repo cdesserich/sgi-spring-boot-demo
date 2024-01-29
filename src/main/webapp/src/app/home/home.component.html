@@ -1,0 +1,69 @@
+<main>
+  <div class="home">
+    <sgi-navbar></sgi-navbar>
+    <!--  <nav class="navigation-wrapper">-->
+    <!--    <div class="navigation-logo">-->
+    <!--      <div class="navigation-logo-img">-->
+    <!--        <img ngSrc="assets/logo.svg" alt="SGI Logo" height="84" width="112">-->
+    <!--      </div>-->
+    <!--      <div class="navigation-logo-text">-->
+    <!--        <div class="navigation-logo-text-top">-->
+    <!--          <span>pharma</span>-->
+    <!--        </div>-->
+    <!--        <div class="navigation-logo-text-bottom">-->
+    <!--          <span>portal</span>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--    </div>-->
+
+    <!--    <ul class="navigation">-->
+    <!--      <li><a href="#">Search</a></li>-->
+    <!--      <li><a href="#">Items</a></li>-->
+    <!--      <li><a href="#">Recent Orders</a></li>-->
+    <!--      <li><a href="#"><i class="bi-cart-fill"></i> Cart</a></li>-->
+    <!--    </ul>-->
+    <!--  </nav>-->
+    <div class="actions">
+      <sgi-action [position]="ActionPosition.Left"
+                  actionText="Ship items<br />to a<br /><strong>Single<br />Location.</strong>"
+                  image="assets/laptop.jpg"></sgi-action>
+      <sgi-action backgroundColor="rebeccapurple"
+                  actionText="Ship same<br />items to<br /><strong>Multiple<br />Locations.</strong>"
+                  image="assets/map.jpg"></sgi-action>
+      <sgi-action backgroundColor="limegreen" actionText="Place a<br /><strong>Digital Order.</strong>"
+                  image="assets/phone.jpg"></sgi-action>
+      <sgi-action backgroundColor="darkorange" [position]="ActionPosition.Right"
+                  actionText="Place a<br /><strong>Conference<br />Order.</strong>"
+                  image="assets/conference.jpg"></sgi-action>
+      <!--    <div class="action" style="background: deepskyblue; border-radius: 20px 0 0 20px;">-->
+      <!--      <div class="action-spacer"></div>-->
+      <!--      <div><img ngSrc="assets/laptop.jpg" height="220" width="220" alt="Laptop"></div>-->
+      <!--      <div class="action-text">-->
+      <!--        <p>Ship items<br />to a<br /><strong>Single<br />Location.</strong></p>-->
+      <!--      </div>-->
+      <!--    </div>-->
+      <!--    <div class="action" style="background: rebeccapurple;">-->
+      <!--      <div class="action-spacer"></div>-->
+      <!--      <div><img ngSrc="assets/map.jpg" height="220" width="220" alt="Laptop"></div>-->
+      <!--      <div class="action-text" style="text-align: center;">-->
+      <!--        <p>Ship same<br />items to<br /><strong>Multiple<br />Locations.</strong></p>-->
+      <!--      </div>-->
+      <!--    </div>-->
+      <!--    <div class="action" style="background: limegreen;">-->
+      <!--      <div class="action-spacer"></div>-->
+      <!--      <div><img ngSrc="assets/phone.jpg" height="220" width="220" alt="Laptop"></div>-->
+      <!--      <div class="action-text" style="text-align: center;">-->
+      <!--        <p>Place a<br /><strong>Digital Order.</strong></p>-->
+      <!--      </div>-->
+      <!--    </div>-->
+      <!--    <div class="action" style="background: darkorange; border-radius: 0 20px 20px 0;">-->
+      <!--      <div class="action-spacer"></div>-->
+      <!--      <div><img ngSrc="assets/conference.jpg" height="220" width="220" alt="Laptop"></div>-->
+      <!--      <div class="action-text">-->
+      <!--        <p>Place a<br /><strong>Conference<br />Order.</strong></p>-->
+      <!--      </div>-->
+      <!--    </div>-->
+    </div>
+  </div>
+</main>
+<sgi-footer></sgi-footer>

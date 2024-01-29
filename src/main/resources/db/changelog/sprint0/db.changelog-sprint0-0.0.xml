@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <changeSet id="sprint0-0.0.0" author="christian.desserich">
+        <createTable tableName="PRODUCT">
+            <column name="ID" type="int" autoIncrement="true">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="SKU" type="nvarchar(16)"/>
+            <column name="NAME" type="nvarchar(32)"/>
+            <column name="DESCRIPTION" type="nvarchar(1028)"/>
+            <column name="IMAGE" type="nvarchar(64)"/>
+            <column name="MY_ITEM" type="bit"/>
+        </createTable>
+        <loadData tableName="PRODUCT" file="db/changelog/sprint0/product.csv">
+            <column name="SKU" header="SKU"/>
+            <column name="NAME" header="NAME"/>
+            <column name="DESCRIPTION" header="DESCRIPTION"/>
+            <column name="IMAGE" header="IMAGE"/>
+            <column name="MY_ITEM" header="MY_ITEM"/>
+        </loadData>
+    </changeSet>
+
+</databaseChangeLog>

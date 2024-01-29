@@ -1,0 +1,24 @@
+<nav [class]="small() ? 'wrapper small' : 'wrapper'">
+  <div class="logo">
+    <div class="logo-img">
+      <a [routerLink]="'/'">
+        <img ngSrc="assets/logo.svg" alt="SGI Logo" height="84" width="102.48">
+      </a>
+    </div>
+    <div class="logo-text">
+      <div class="logo-text-top">
+        <span>pharma</span>
+      </div>
+      <div class="logo-text-bottom">
+        <span>portal</span>
+      </div>
+    </div>
+  </div>
+
+  <ul class="tabs">
+    <li><a [routerLink]="'/search'">Search</a></li>
+    <li><a [routerLink]="'/products'">Items</a></li>
+    <li><a href="#">Recent Orders</a></li>
+    <li><a href="#"><i class="bi-cart-fill"></i> Cart</a></li>
+  </ul>
+</nav>

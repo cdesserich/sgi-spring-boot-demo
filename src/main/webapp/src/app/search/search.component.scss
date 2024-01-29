@@ -1,0 +1,50 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: rgb(160, 160, 160);
+  background: linear-gradient(0deg, rgba(160, 160, 160, 1) 0%, rgba(255, 255, 255, 1) 75%);
+}
+
+h1 {
+  align-self: flex-start;
+}
+
+.wrapper {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.stinger {
+  color: white;
+  width: 800px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rate {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+  height: 120px;
+  background-color: limegreen;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.whats-new {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+  height: 120px;
+  background-color: darkorange;
+  border-radius: 20px;
+  cursor: pointer;
+}

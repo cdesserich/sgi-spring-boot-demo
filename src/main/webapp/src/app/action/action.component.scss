@@ -1,0 +1,21 @@
+.action {
+  width: 220px;
+  height: 480px;
+  cursor: pointer;
+}
+
+.spacer {
+  height: 80px;
+}
+
+.text {
+  //display: flex;
+  //flex-direction: column;
+  //justify-content: center;
+  //align-items: center;
+  height: 120px;
+  width: 100%;
+  font-size: 1.6em;
+  color: white;
+  padding: 0 8px;
+}

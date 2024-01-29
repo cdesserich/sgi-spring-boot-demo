@@ -1,0 +1,14 @@
+<main>
+  <div class="wrapper">
+    <sgi-navbar [small]="true"></sgi-navbar>
+    <h1 style="align-self: flex-start">My Items _______________________________________________</h1>
+    <div class="items-list">
+      @for (product of products(); track product.id;) {
+        <div class="card">
+          <sgi-product-card [title]="product.name" [description]="product.description" [image]="product.image"></sgi-product-card>
+        </div>
+      }
+    </div>
+  </div>
+</main>
+<sgi-footer></sgi-footer>
