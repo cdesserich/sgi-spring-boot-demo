@@ -4,6 +4,7 @@
 
 - [`https://nodejs.org/en`](https://nodejs.org/en)
   - Install latest LTE
+  - Includes NPM (Node Package Manager)
 
 ## Angular CLI
 
