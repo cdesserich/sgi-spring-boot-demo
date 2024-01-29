@@ -8,6 +8,7 @@ import { DataService } from "../services/data.service";
 import { Product } from "../models/product";
 import { toSignal } from "@angular/core/rxjs-interop";
 import { FooterComponent } from "../footer/footer.component";
+import { RouterLink } from "@angular/router";
 
 @Component({
   selector: 'sgi-home',
@@ -17,7 +18,8 @@ import { FooterComponent } from "../footer/footer.component";
     NavbarComponent,
     ActionComponent,
     ProductCardComponent,
-    FooterComponent
+    FooterComponent,
+    RouterLink
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
