@@ -2,15 +2,15 @@
   <div class="home">
     <sgi-navbar></sgi-navbar>
     <div class="actions">
-      <sgi-action [position]="ActionPosition.Left"
+      <sgi-action link="shipping" [position]="ActionPosition.Left"
                   actionText="Ship items<br />to a<br /><strong>Single<br />Location.</strong>"
                   image="assets/laptop.jpg"></sgi-action>
-      <sgi-action backgroundColor="rebeccapurple"
+      <sgi-action link="shipping" backgroundColor="rebeccapurple"
                   actionText="Ship same<br />items to<br /><strong>Multiple<br />Locations.</strong>"
                   image="assets/map.jpg"></sgi-action>
-      <sgi-action backgroundColor="limegreen" actionText="Place a<br /><strong>Digital Order.</strong>"
+      <sgi-action link="shipping" backgroundColor="limegreen" actionText="Place a<br /><strong>Digital Order.</strong>"
                   image="assets/phone.jpg"></sgi-action>
-      <sgi-action backgroundColor="darkorange" [position]="ActionPosition.Right"
+      <sgi-action link="shipping" backgroundColor="darkorange" [position]="ActionPosition.Right"
                   actionText="Place a<br /><strong>Conference<br />Order.</strong>"
                   image="assets/conference.jpg"></sgi-action>
     </div>
